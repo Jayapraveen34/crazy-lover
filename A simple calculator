@@ -1,0 +1,53 @@
+print('\n \n simple calculator')
+while True:
+    print('Enter your input \t add \t sub \t mul \t div \n To quit  \'quit\'')
+    jay = input(str(":"))
+    
+    if jay == "add":
+        a = input('enter the first number you want to add :')
+        b = input ('enter the second number you want to add:')
+        c = int(a)+int(b)
+        print ("the sum of the number is \t" + str(c))
+        continue
+    
+    elif jay == "sub" :
+        a = input ('enter the first number you want to subract:')
+        b = input ('enter the second number you want to subract:')
+        c = int(a)- int(b)
+        print ("the subraction of the two number is :\t" +  str(c))
+        continue
+    
+    elif jay =="mul":
+        a = input('enter the first number:')
+        b = input('enter the second number:')
+        c = int(a)*int(b)
+        print('The multiplication value is\t:'+  str(c))
+        continue
+    
+    elif jay == "div":
+        a = input('enter the numerator:')
+        b = input('enter the denomominator:')
+        try:
+            c = int(a)/int(b)
+            print('the division of the given numbers is given by:\t' + str(c))
+            continue
+        except ZeroDivisionError:
+            print("math error")
+            continue
+        except ValueError:
+            print("infinite")
+            continue
+        except:
+            continue
+    
+    elif jay == "quit":
+        print('program ended')
+        break
+
+    elif ValueError:
+        print("Provide a valid input")
+        continue
+    else:
+        print('you have been given a invaid input.\n Thank you')
+        break
+
