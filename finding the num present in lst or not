@@ -1,0 +1,6 @@
+_,num=[int(x) for x in input().split()]
+lst=[int(x) for x in input().split()]
+if num in lst:
+	print("yes")
+else:
+	print("no")
