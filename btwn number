@@ -1,0 +1,6 @@
+mid=int(input())
+min,max=[int(x) for x in input().split()]
+if( mid<max and mid>min ):
+    print("yes")
+else:
+    print("no")
