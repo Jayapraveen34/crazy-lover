@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#5E995E"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#99ffff"
+        android:textColor="@color/textcol"
+        style="@style/sample2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/welcome" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        style="@style/basis"
+        android:layout_marginTop="75dp"
+        android:background="@color/textcol"
+        android:hint="@string/email"
+        android:id="@+id/EmailLog"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        style="@style/basis"
+        android:background="@color/textcol"
+        android:id="@+id/Logpwd"
+        android:hint="@string/password"
+        />
+
+    <Button
+
+        android:layout_width="115dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/Login"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="Login" />
+
+    <TextView
+        android:id="@+id/NoAccount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/Caccount"
+        android:textColor="@color/linkCol"
+        android:textSize="25dp" />
+    <TextView
+        style="@style/warnUser"
+        android:id="@+id/Loginerror"
+    />
+
+</LinearLayout>

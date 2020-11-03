@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Patient Hoist</string>
+    <string name="welcome">Fill the details below!</string>
+    <string name="errorMsg">Please provide valid details</string>
+    <string name="Caccount">Dont Have a account?  sign up</string>
+    <string name="HavAcc">Already have account?</string>
+    <string name="compLogo">companyLogo</string>
+    <string name="Uparrow">upArrow</string>
+    <string name="Downarrow">Down Arrow</string>
+    <string name="initialInfo">Use arrows to Move</string>
+    <string name="email">Email</string>
+    <string name="password">Password:</string>
+    <string name="Cpassword">ConfirmPassword:</string>
+    <string name="popup">Fill the Details</string>
+</resources>

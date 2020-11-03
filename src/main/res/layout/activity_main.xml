@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/company_logo"
+        android:contentDescription="@string/compLogo"
+        />
+
+    <ImageView
+        android:id="@+id/upButton"
+        style="@style/ButtonBasic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:contentDescription="@string/Uparrow"
+        android:src="@mipmap/up_arrow"
+        android:textSize="55sp" />
+
+    <ImageView
+        android:id="@+id/downButton"
+        style="@style/ButtonBasic"
+        android:layout_marginTop="350dp"
+        android:contentDescription="@string/Downarrow"
+        android:src="@mipmap/down_arrow"
+        />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:paddingLeft="100dp"
+        android:text="@string/initialInfo"
+        android:textColor="@color/TextColor"
+        android:textSize="30sp" />
+
+</RelativeLayout>

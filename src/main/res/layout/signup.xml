@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#5E995E"
+    android:tooltipText="@string/popup"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#99ffff"
+        android:textColor="@color/colorPrimary"
+        style="@style/sample2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/welcome" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        style="@style/basis"
+        android:layout_marginTop="75dp"
+        android:background="@color/textcol"
+        android:hint="@string/email"
+        android:id="@+id/Email"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        style="@style/basis"
+        android:background="@color/textcol"
+        android:id="@+id/pwd"
+        android:hint="@string/password"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        style="@style/basis"
+        android:background="@color/textcol"
+        android:id="@+id/Cpwd"
+        android:hint="@string/Cpassword"
+        />
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/submit"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="submit" />
+
+
+    <TextView
+        android:id="@+id/HaveAccount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/HavAcc"
+        android:textColor="@color/linkCol"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/error"
+        style="@style/warnUser"
+
+        />
+</LinearLayout>
