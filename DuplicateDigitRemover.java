@@ -7,8 +7,10 @@ public class Main {
         String output="";
         for(int i=0, j=1;i<userInput.length;i++,j++)
         {
+
             if (j!=userInput.length)
             {
+
                 if(userInput[i]==userInput[j])
                 {
                     i+=1;
@@ -21,6 +23,9 @@ public class Main {
             {
                 continue;
             }
+
+                
+            output+=(""+userInput[i]);
         }
         System.out.println(output);
     }
