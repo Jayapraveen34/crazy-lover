@@ -20,7 +20,7 @@ public class Main {
                 output+=(" "+c);
             count=0;
         }
-        System.out.println(output);
+        System.out.println(output.trim());
         }
     }
 }
